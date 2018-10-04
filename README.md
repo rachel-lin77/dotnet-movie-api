@@ -5,7 +5,7 @@ then return available API data.
 
 *this section of code is designed to add any new movies API resources easily.
 
-2.using id to retrieve price from detail endpoint, the program will retreive details for each movie parallelly,  
+2.using id to retrieve price from detail endpoint, the program will retreive details for each movie in parallel,  
 it will retry 5 times until it is successful.
  
 3.combined two list and find the lowest price of each movie, then sort by year, name and price
